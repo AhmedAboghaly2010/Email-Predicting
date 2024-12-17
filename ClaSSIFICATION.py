@@ -1,17 +1,3 @@
-import nltk
-import os
-
-nltk_data_path = os.path.join(os.getcwd(), "nltk_data")
-nltk.data.path.append(nltk_data_path)
-
-nltk.download('punkt', download_dir='./nltk_data')
-
-# إضافة المسار إلى قائمة مسارات NLTK
-nltk.data.path.append(nltk_data_path)
-
-# تحميل punkt إلى هذا المسار
-nltk.download('punkt', download_dir=nltk_data_path)
-
 import streamlit as st
 import pickle
 import nltk
