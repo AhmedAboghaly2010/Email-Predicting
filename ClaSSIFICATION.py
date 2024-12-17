@@ -8,7 +8,7 @@ import nltk
 from nltk.corpus import stopwords , brown
 from nltk.stem import PorterStemmer
 # تحميل بيانات NLTK
-nltk.download('stopwords')
+#nltk.download('stopwords')
 
 
 # تحميل النموذج والـ vectorizer
