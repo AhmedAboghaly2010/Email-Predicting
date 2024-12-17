@@ -1,7 +1,7 @@
 import streamlit as st
 import pickle
 import nltk
-nltk.download('punkt')
+#nltk.download('punkt')
 #nltk.download()
 #from nltk.corpus import brown
 #brown.words()
